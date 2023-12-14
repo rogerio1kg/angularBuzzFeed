@@ -1,0 +1,144 @@
+{
+    "quiz":[
+        {
+            "title":"Qual sua versão de linux?",
+            "questions":[
+                {
+                    "id": 1,
+                    "question": "Você é um usuário de linux?",
+                    "options":[
+                        {"id": 1, "name": "Sim", "alias": "C"},
+                        {"id": 2, "name": "Não", "alias": "D"}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "question": "Você prefere uma distro que seja?",
+                    "options": [
+                        {"id": 1, "name": "Estavel e confiável", "alias": "A"},
+                        {"id": 2, "name": "Inovador e Atualizado", "alias": "B"},
+                        {"id": 3, "name": "Personalizável e Fléxivel", "alias": "D"},
+                        {"id": 4,"name": "Simples e Fácil", "alias": "C"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "question": "Você usa Linux para ...?",
+                    "options": [
+                        {"id": 1,"name": "Trabalho e Estudo", "alias": "B"},
+                        {"id": 2,"name": "Lazer e Diversão", "alias": "A"},
+                        {"id": 3,"name": "Aprendizado ou Experimentação", "alias": "D"},
+                        {"id": 4,"name": "Navegação ou Comunicação", "alias": "C"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "question": "Você se considera uma pessoa em relação a opção do distro",
+                    "options": [
+                        {"id": 1,"name": "Conservador e Tradiciona", "alias": "A"},
+                        {"id": 2,"name": "Moderno e Ousado", "alias": "C"},
+                        {"id": 3,"name": "Independe e Original", "alias": "D"},
+                        {"id": 4,"name": "Sociável e Amigável", "alias": "B"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "question": "Como você prefere a interface da sua Distro?",
+                    "options": [
+                        {"id": 1,"name": "Clássica e Familiar", "alias": "C"},
+                        {"id": 2,"name": "Elegante e Sofisticada", "alias": "B"},
+                        {"id": 3,"name": "Minimalista e Funcional", "alias": "A"},
+                        {"id": 4,"name": "Intuitiva e Acessível", "alias": "B"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "question": "Você se importa mais com o/a...",
+                    "options": [
+                        {"id": 1,"name": "Segurança e Estabilidade", "alias": "D"},
+                        {"id": 2,"name": "Desempenho e Velocidade", "alias": "B"},
+                        {"id": 3,"name": "Liberdade e Controle", "alias": "C"},
+                        {"id": 4,"name": "Suporte e Comunidade", "alias": "A"}
+                    ]
+                }
+            ],
+            "results":{
+                "A":{"answer": "Debian", "description": "O Debiam é uma das distros mais antigas e populares do Linux, que se destaca pela sua estabilidade, confiabilidade e segurança."},
+                "B":{"answer": "Fedora", "description": "O Fedora é uma distro que se caracteriza pela sua inovação e atualização, que traz os recursos mais recentes do Linux e dos software livres."},
+                "C":{"answer": "Arch Linux", "description": "O Arch Linux é uma distro que se destaca pela sua personalização e flexibilidade, que permite ao usuário construir um sistema de acordo a sua preferência e necessidades."},
+                "D":{"answer": "Mint", "description": "O Mint é uma distro que se sobressai pela sua simplicidade e facilidade de uso, que tornam o Linux acessível e agradável para todos tipos de usuários."}
+            }
+        },
+        {
+            "title": "Qual distro faz seu tipo?",
+            "questions":[
+                {
+                    "id": 1,
+                    "question":" Qual é asua preferência de ambiente de desktop?",
+                    "options":[
+                        {"id": 1, "name": "GNOME", "alias": "A"},
+                        {"id": 2, "name": "Xfce", "alias": "C"},
+                        {"id": 3, "name": "i3", "alias": "D"},
+                        {"id": 4, "name": "KDE", "alias": "B"}
+                    ]
+                },
+                {
+                    "id": 2,
+                    "question": "O que você valoriza mais em distro Linux?",
+                    "options":[
+                        {"id": 1, "name": "Leveza", "alias": "C"},
+                        {"id": 2, "name": "Estabilidade", "alias": "A"},
+                        {"id": 3, "name": "Personalização", "alias": "B"},
+                        {"id": 4, "name": "Novas Tecnologias", "alias": "D"}
+                    ]
+                },
+                {
+                    "id": 3,
+                    "question": "Como você se sente em realação à comunidade de Software Livre?",
+                    "options":[
+                        {"id": 1, "name": "Ativamente Envolvido", "alias": "A"},
+                        {"id": 2, "name": "Não dou importância", "alias": "D"},
+                        {"id": 3, "name": "Indiferente", "alias": "C"},
+                        {"id": 4, "name": "Apoio, mas não participo ativamente", "alias": "B"}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "question": "Qual é a sua preferência quanto ao sistema de gerenciamento de pacote?",
+                    "options":[
+                        {"id": 1, "name": "Pacman", "alias": "B"},
+                        {"id": 2, "name": "Emerge", "alias": "D"},
+                        {"id": 3, "name": "Apt", "alias": "A"},
+                        {"id": 4, "name": "Dnf", "alias": "C"}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "question": "O que você busca em uma distro?",
+                    "options": [
+                        {"id": 1, "name": "Facilidade de Uso", "alias": "A"},
+                        {"id": 2, "name": "Controle Total Sobre o Sistema", "alias": "B"},
+                        {"id": 3, "name": "Rapidez e Desempenho", "alias": "C"},
+                        {"id": 4, "name": "Últimas Atualizações e Novas Funcionalidades", "alias": "D"}
+                    ]
+                },
+                {
+                    "id": 6,
+                    "question": "Como você se sente em relação ao rolling release(atualizações continuas)?",
+                    "options":[
+                        {"id": 1, "name": "Não sei o que é isso", "alias": "D"},
+                        {"id": 2, "name": "Gosto, Mas Preciso de um Equilibrio", "alias": "C"},
+                        {"id": 3, "name": "Prefiro Estabilidade, Não me Importo com as Últimas Versões", "alias": "B"},
+                        {"id": 4, "name": "Adoro, Quero Sempre As Últimas Versões", "alias": "A"}
+                    ]
+                }
+            ],
+            "results":{
+                "A":{"answer":"Ubuntu", "description": "Você valoriza a experiência de usuário e a estabilidade proporcionadas pelo ambiente GNOME."},
+                "B":{"answer": "Arch Linux", "description": "Sua preferência por personalização e controle total sobre o sistema o leva a uma distro altamente modular."},
+                "C":{"answer": "Xubuntu (ou distros Xfce)", "description": "A leveza e a simplicidade do ambinte Xfce combinam com a sua preferência por sistemas rápidos e eficientes."},
+                "D":{"answer": "Gentoo", "description": "Sua inclinação para novas tecnologias e o desejo de ajustar cada aspecto do sistema fazem do Gentoo a sua escolha ideal."}
+            }
+        }
+    ]
+}
